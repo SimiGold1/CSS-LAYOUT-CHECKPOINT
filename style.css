@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@100;300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-info{
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-brand img{
+    padding-left: 100px;
+    padding-bottom:40px ;
+}
+.menu  {
+    display: flex;
+    gap: 1em;
+    font-size: 14px;
+}
+.menu  li{
+    list-style-type: none;
+    padding: 5px 14px;
+    color:black;
+    background-color: transparent;
+    font-size: 15px;
+}
+#about{
+    color: #00b39b;
+}
+#career:hover{
+    color: #00b39b;
+}
+#departments:hover{
+    color: #00b39b;
+}
+#career,#departments{
+   color: #ababab
+}
+.firstcontent-info{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.firstcontent-info h2{
+    font-family: 'Work Sans', sans-serif;  
+    font-weight: 300;
+    font-size: 30px;
+    color: #00b39b; 
+}
+.sub-content-firstcontent-info{
+    text-align: left;
+    width: 550px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 1.2rem;
+    gap: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sub-content-firstcontent-info h5{
+    font-weight: 200;
+}
+.health-booking-cards{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 150px;
+    gap: 1rem;
+}
+.patient-card,.doctors-card,.clinics-card{
+    background-color:#00ccb1; 
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Work Sans', sans-serif ;  
+    width: 270px;
+}
+.patient-card-info h4,.doctors-card-info h4,.clinics-card-info h4{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.patient-card-info p,.doctors-card-info p,.clinics-card-info p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 70px;
+}
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif ;  
+    font-weight: 200;
+}
+option{
+   background-color: #00ccb1; 
+}
+#specialists{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-top:  30px;
+}
+.doctors-card{
+    background-color:#3d83df; 
+}
+.clinics-card{
+    background-color: #1b2734;
+}
+.patient-card-info option{
+    background-color:#00ccb1;
+}
+.doctors-card-info option{
+    background-color:#3d83df ;
+}
+.clinics-card-info option{
+    background-color:#1b2734 ;
+}
+.partners-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.partners-title{
+    max-width: 200px;
+     margin-left :270px;
+     margin-top: 30px;
+}
+.partners-title h5{
+    font-family: 'Work Sans', sans-serif;  
+    font-weight: 300;
+    font-size: 20px;
+    color: #00b39b; 
+    line-height: 2rem;
+}
+.partners-container-logo{
+    margin-top: 20px;
+}
+.partners-container-logo img{
+    padding-right: 20px;
+    padding-bottom: 35px;
+}
+.healthcare-bio-container{
+    background-color:#d0faf4;
+    display: flex;
+    align-items: center;
+ justify-content: center ; 
+    padding-right: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.healthcare-bio-title{
+    font-weight: 300;
+    font-size: 30px;
+    color: #00b39b; 
+    line-height: 2rem;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+.healthcare-bio-subtext{
+    padding-bottom: 50px;
+    color:#747474 ;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+.first-column-healthcare-bio{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin-left: 50px;
+}
+.second-column-healthcare-bio{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 1.5rem;
+    column-gap: 2.5rem;
+    margin-left: 170px;
+}
+.second-column-healthcare-bio p{
+    padding-top: 15px;
+    font-size: 10px; 
+}
+
+.healthcare-achievement-card,.appointments,.patients,.doctors{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content:center;
+    background-color: #fff;
+    text-align: center;
+    width: 170px;
+    border-radius: 2px;
+    max-height: 500px;
+    padding: 15px;
+}
+.appointments,.patients,.doctors{
+    line-height: 1.5rem;
+}
+.patients,.doctors{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+ .healthcare-achievement-card img,.appointments img,.patients img,.doctors img{
+    width: 15%;
+    padding-bottom: 15px;
+}
+.patients-title,.healthcare-achievement-card-title,.appointments-title,.doctors-title{
+    color: #00b39b;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;  
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.patients-info,.healthcare-achievement-info,.doctors-info,.appointments-info{
+    color:#747474 ;
+    font-family:'Roboto', Arial, sans-serif ;
+    font-weight: 800;
+}
+.content-one {
+    margin: 0 auto;
+    text-align: center;
+    color:#00b39b;
+    font-family: 'Work Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.content-one h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.section-info{
+    color:#747474;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.countries{
+    margin-left: 25%; 
+    /* display: flex; */
+}
+.country-card{
+    width: 350px;
+    height: 350px;
+}
+.country-card-row{
+    display:flex;
+}
+.country-card img{
+    object-fit: cover;
+}
+.country-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.country-info button{
+    border: none;
+    background-color:#3d83df;
+    padding: 5px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 11px;
+    border-radius: 5px;
+}
+.vacancies{
+    text-align: center;
+}
+.vacancies h1{
+    color:#333 ;
+    font-family: 'Work Sans', Arial, sans-serif; 
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0.7em;
+    margin-top: 4.5rem;
+}
+.vacancies-button{
+    border: none;
+    background-color:#3d83df;
+    padding: 5px;
+    color:white;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #ababab;
+    font-weight: 800;
+    padding-top: 80px;
+}
+footer p{
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+a{
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
