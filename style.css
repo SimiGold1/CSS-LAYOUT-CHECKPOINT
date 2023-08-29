@@ -99,7 +99,7 @@ select {
     color: white;
     border: none;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Work Sans', sans-serif ;  
     font-weight: 200;
 }
@@ -278,6 +278,27 @@ option{
     font-size: 11px;
     border-radius: 5px;
 }
+.mexico-card-row{
+    margin-left: 150px;
+    display: flex;
+}
+.mexico-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .mexico-info button{
+        border: none;
+        background-color:#3d83df;
+        padding: 5px;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 11px;
+        border-radius: 5px;
+    }
+    
 .vacancies{
     text-align: center;
 }
@@ -304,7 +325,7 @@ footer{
     font-size: 12px;
     font-family: 'Roboto', Arial, sans-serif;
     color: #ababab;
-    font-weight: 800;
+    font-weight: 600;
     padding-top: 80px;
 }
 footer p{
@@ -318,3 +339,4 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
