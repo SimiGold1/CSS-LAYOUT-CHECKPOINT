@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@100;300;400;500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+  /* Fonts imported from Google fonts to use */
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 200;
 }
-*{
+*{                                /* Affects everything on the webpage */
     margin: 0;
     padding: 0;
 }
+ /* Styling navbar */
 .navbar-info{
     display: flex;
     padding-left: 70px;
@@ -35,6 +36,7 @@ body{
 #about{
     color: #00b39b;
 }
+/* Creating and styling hover */
 #career:hover{
     color: #00b39b;
 }
@@ -174,13 +176,13 @@ option{
     line-height: 1.5rem;
     font-size: 14px;
 }
-.first-column-healthcare-bio{
+.first-column-healthcare-bio{          /*Using CSS FLEX*/
     display: flex;
     flex-direction: column;
     max-width: 350px;
     margin-left: 50px;
 }
-.second-column-healthcare-bio{
+.second-column-healthcare-bio{   / *Using Css Grid*/
     display:grid;
     grid-template-columns: 1fr 1fr ;
     row-gap: 1.5rem;
@@ -268,7 +270,7 @@ option{
     align-items: center;
     margin-top: 10px;
 }
-.country-info button{
+.country-info button{   /*styling button*/
     border: none;
     background-color:#3d83df;
     padding: 5px;
