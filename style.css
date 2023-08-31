@@ -182,7 +182,7 @@ option{
     max-width: 350px;
     margin-left: 50px;
 }
-.second-column-healthcare-bio{   / *Using Css Grid*/
+.second-column-healthcare-bio{   
     display:grid;
     grid-template-columns: 1fr 1fr ;
     row-gap: 1.5rem;
